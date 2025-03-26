@@ -1,5 +1,3 @@
-# API-1-Semestre-2025
-
    LGS Solutions - Soluções em Programação
 =============================================
 
