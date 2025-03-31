@@ -1,58 +1,58 @@
 Algoritmo "API"
-// DescriÁ„o   : Calculadora de funÁıes especificadas pelo cliente
-// Autor(a)    : Guilherme, Luan, LuÌs e Samir.
+// Descri√ß√£o   : Calculadora de fun√ß√µes especificadas pelo cliente
+// Autor(a)    : Guilherme, Luan, Lu√≠s e Samir.
 // Data atual  : 24/03/2025
 Var
-   // SeÁ„o de DeclaraÁıes das vari·veis
+   // Se√ß√£o de Declara√ß√µes das vari√°veis
    OP, OP2, i, IF, NF, AF, BF, AUXF, indiceSequencia, buffer,numeroTermos, termoAtual, contador  : Inteiro
    N1, N2, R: Real
    Menu: inteiro
 
 Funcao Menu(): inteiro
 
-//InÌcio da FunÁ„o "Menu"
+//In√≠cio da Fun√ß√£o "Menu"
 Inicio
    Escreval ("==================================================")
-   Escreval ("        CALCULADORA DE FUN«’ES MATEM¡TICAS")
+   Escreval ("        CALCULADORA DE FUN√á√ïES MATEM√ÅTICAS")
    Escreval ("==================================================")
    Escreval (" ")
-   Escreval ("Escolha a SequÍncia LÛgica: ")
-   Escreval ("1 -            SequÍncia de Fibonacci")
-   Escreval ("2 - [EM BREVE] N˙meros Triangulares")
-   Escreval ("3 - [EM BREVE] SequÍncia de N˙meros Primos")
-   Escreval ("4 - [EM BREVE] SequÍncia Fatorial")
-   Escreval ("5 - [EM BREVE] SequÍncia de Quadrados Perfeitos")
-   Escreval ("6 -            SequÍncia de Cubos")
-   Escreval ("7 -            SequÍncia GeomÈtrica")
-   Escreval ("8 - [EM BREVE] SequÍncia Alternada")
-   Escreval ("9 - [EM BREVE] SequÍncia de Tribonacci")
+   Escreval ("Escolha a Sequ√™ncia L√≥gica: ")
+   Escreval ("1 -            Sequ√™ncia de Fibonacci")
+   Escreval ("2 - [EM BREVE] N√∫meros Triangulares")
+   Escreval ("3 - [EM BREVE] Sequ√™ncia de N√∫meros Primos")
+   Escreval ("4 - [EM BREVE] Sequ√™ncia Fatorial")
+   Escreval ("5 - [EM BREVE] Sequ√™ncia de Quadrados Perfeitos")
+   Escreval ("6 -            Sequ√™ncia de Cubos")
+   Escreval ("7 -            Sequ√™ncia Geom√©trica")
+   Escreval ("8 - [EM BREVE] Sequ√™ncia Alternada")
+   Escreval ("9 - [EM BREVE] Sequ√™ncia de Tribonacci")
    Escreval ("10 - Sair")
-   Escreva ("Digite a opÁ„o: ")
+   Escreva ("Digite a op√ß√£o: ")
    Leia (OP)
    Limpatela ()
 
 
-   //Enquanto a opÁ„o n„o estiver entre 1 e 12, È exibida a seguinte mensagem
-   Enquanto (OP < 1) ou (OP > 12) FaÁa
-   Escreval (" OpÁ„o Inv·lida - Reentre")
+   //Enquanto a op√ß√£o n√£o estiver entre 1 e 12, √© exibida a seguinte mensagem
+   Enquanto (OP < 1) ou (OP > 12) Fa√ßa
+   Escreval (" Op√ß√£o Inv√°lida - Reentre")
    Escreval (" ")
       Escreval (Menu())
    Fimenquanto
 
 
-   //SequÍncia de Fibonacci
+   //Sequ√™ncia de Fibonacci
    Se (OP = 1) entao
 
       Escreval ("====================================")
-      Escreval ("      SequÍncia de Fibonacci")
+      Escreval ("      Sequ√™ncia de Fibonacci")
       Escreval ("====================================")
       Escreval (" ")
       Escreval (" ")
-      Escreval ("Nesta opÁ„o, ao digitar um n˙mero inteiro ser· calculado e exibido ao usu·rio a sequÍncia do primeiro ao n˙mero inserido pelo usu·rio")
+      Escreval ("Nesta op√ß√£o, ao digitar um n√∫mero inteiro ser√° calculado e exibido ao usu√°rio a sequ√™ncia do primeiro ao n√∫mero inserido pelo usu√°rio")
       Escreval (" ")
-      Escreval ("ObservaÁıes:")
-      Escreval ("- Devido a limitaÁıes do VisualG, apenas os 40 primeiros termos da sequÍncia podem ser calculados")
-      Escreval ("- Caso sejam inseridos caracteres inv·lidos, apenas os n˙meros inteiros ser„o considerados")
+      Escreval ("Observa√ß√µes:")
+      Escreval ("- Devido a limita√ß√µes do VisualG, apenas os 40 primeiros termos da sequ√™ncia podem ser calculados")
+      Escreval ("- Caso sejam inseridos caracteres inv√°lidos, apenas os n√∫meros inteiros ser√£o considerados")
       Escreval (" ")
       Escreval ("Pressione Enter para continuar")
       Leia(NF)
@@ -61,19 +61,19 @@ Inicio
       Enquanto Verdadeiro faca
       LimpaTela
       Escreval ("====================================")
-      Escreval ("      SequÍncia de Fibonacci")
+      Escreval ("      Sequ√™ncia de Fibonacci")
       Escreval ("====================================")
       Escreval (" ")
-      Escreva("Digite a quantidade de termos da sequÍncia de Fibonacci: ")
+      Escreva("Digite a quantidade de termos da sequ√™ncia de Fibonacci: ")
       Leia(NF)
 
       Enquanto (NF < 1) faca
          Limpatela
          Escreval ("====================================")
-         Escreval ("      SequÍncia de Fibonacci")
+         Escreval ("      Sequ√™ncia de Fibonacci")
          Escreval ("====================================")
          Escreval (" ")
-         Escreval ("O n˙mero deve ser maior ou igual a 1.")
+         Escreval ("O n√∫mero deve ser maior ou igual a 1.")
          Escreval ("Digite novamente: ")
          Leia(NF)
       FimEnquanto
@@ -81,10 +81,10 @@ Inicio
       Enquanto (NF > 40) faca
          Limpatela
          Escreval ("====================================")
-         Escreval ("      SequÍncia de Fibonacci")
+         Escreval ("      Sequ√™ncia de Fibonacci")
          Escreval ("====================================")
          Escreval (" ")
-         Escreval ("O n˙mero deve ser menor ou igual a 40")
+         Escreval ("O n√∫mero deve ser menor ou igual a 40")
          Escreval ("Digite novamente: ")
          Leia(NF)
       FimEnquanto
@@ -109,7 +109,7 @@ Inicio
       Escreval ("O que deseja fazer agora?")
       Escreval ("1 - Calcular Novamente")
       Escreval ("2 - Voltar ao menu")
-      Escreva ("Digite a opÁ„o: ")
+      Escreva ("Digite a op√ß√£o: ")
       Leia (OP2)
 
       Se (OP2 = 2) entao
@@ -119,23 +119,23 @@ Inicio
       Senao
          Se (OP2 <> 1) entao
          Limpatela
-            Escreval ("OpÁ„o Inv·lida! tente novamente")
+            Escreval ("Op√ß√£o Inv√°lida! tente novamente")
             FimSe
       FimSe
    FimEnquanto
    
-//N˙meros Tri‚ngulares
+//N√∫meros Tri√¢ngulares
 
 Senao
      Se (OP = 2) entao
-        Escreval ("DisponÌvel em breve! ")
+        Escreval ("Dispon√≠vel em breve! ")
         
         Escreval (" ")
         Escreval (" ")
         Escreval ("O que deseja fazer agora?")
         Escreval ("1 - Voltar ao menu")
         Escreval (" ")
-        Escreva ("Digite a opÁ„o: ")
+        Escreva ("Digite a op√ß√£o: ")
         Leia (OP2)
 
         Se (OP2 = 1) entao
@@ -145,21 +145,21 @@ Senao
         Senao
              Se (OP2 <> 1) entao
                 Limpatela
-                Escreval ("OpÁ„o Inv·lida! tente novamente")
+                Escreval ("Op√ß√£o Inv√°lida! tente novamente")
             FimSe
         FimSe
               
-//SequÍncia de N˙meros Primos
+//Sequ√™ncia de N√∫meros Primos
      Senao
           Se (OP = 3) entao
-             Escreval ("DisponÌvel em breve! ")
+             Escreval ("Dispon√≠vel em breve! ")
 
              Escreval (" ")
              Escreval (" ")
              Escreval ("O que deseja fazer agora?")
              Escreval ("1 - Voltar ao menu")
              Escreval (" ")
-             Escreva ("Digite a opÁ„o: ")
+             Escreva ("Digite a op√ß√£o: ")
              Leia (OP2)
 
              Se (OP2 = 1) entao
@@ -169,21 +169,21 @@ Senao
              Senao
                   Se (OP2 <> 1) entao
                      Limpatela
-                     Escreval ("OpÁ„o Inv·lida! tente novamente")
+                     Escreval ("Op√ß√£o Inv√°lida! tente novamente")
                   FimSe
              FimSe
               
-//SequÍncia Fatorial
+//Sequ√™ncia Fatorial
           Senao
                Se (OP = 4) entao
-                  Escreval ("DisponÌvel em breve! ")
+                  Escreval ("Dispon√≠vel em breve! ")
 
                   Escreval (" ")
                   Escreval (" ")
                   Escreval ("O que deseja fazer agora?")
                   Escreval ("1 - Voltar ao menu")
                   Escreval (" ")
-                  Escreva ("Digite a opÁ„o: ")
+                  Escreva ("Digite a op√ß√£o: ")
                   Leia (OP2)
 
                   Se (OP2 = 1) entao
@@ -193,21 +193,21 @@ Senao
                   Senao
                        Se (OP2 <> 1) entao
                           Limpatela
-                          Escreval ("OpÁ„o Inv·lida! tente novamente")
+                          Escreval ("Op√ß√£o Inv√°lida! tente novamente")
                        FimSe
                   FimSe
 
-//SequÍncia de Quadrados Perfeitos
+//Sequ√™ncia de Quadrados Perfeitos
                Senao
                     Se (OP = 5) entao
-                       Escreval ("DisponÌvel em breve! ")
+                       Escreval ("Dispon√≠vel em breve! ")
 
                        Escreval (" ")
                        Escreval (" ")
                        Escreval ("O que deseja fazer agora?")
                        Escreval ("1 - Voltar ao menu")
                        Escreval (" ")
-                       Escreva ("Digite a opÁ„o: ")
+                       Escreva ("Digite a op√ß√£o: ")
                        Leia (OP2)
 
                        Se (OP2 = 1) entao
@@ -217,48 +217,48 @@ Senao
                       Senao
                            Se (OP2 <> 1) entao
                               Limpatela
-                              Escreval ("OpÁ„o Inv·lida! tente novamente")
+                              Escreval ("Op√ß√£o Inv√°lida! tente novamente")
                            FimSe
                       FimSe
               
-//SequÍncia de Cubos
+//Sequ√™ncia de Cubos
                      Senao
                           Se (OP = 6) entao
                              Escreval ("====================================")
-                             Escreval ("      SequÍncia de Cubos")
+                             Escreval ("      Sequ√™ncia de Cubos")
                              Escreval ("====================================")
                              Escreval (" ")
-                             Escreval ("Nesta opÁ„o, ao digitar um n˙mero inteiro, È mostrado o cubo de todos os inteiros atÈ (incluso) o n˙mero dado pelo usu·rio.")
+                             Escreval ("Nesta op√ß√£o, ao digitar um n√∫mero inteiro, √© mostrado o cubo de todos os inteiros at√© (incluso) o n√∫mero dado pelo usu√°rio.")
                              Escreval (" ")
-                             Escreval ("ObservaÁıes:")
-                             Escreval ("- Devido a limitaÁıes do VisualG, apenas os 1290 primeiros termos da sequÍncia podem ser calculados")
-                             Escreval ("- Caso sejam inseridos caracteres inv·lidos, apenas os n˙meros inteiros digitados ser„o considerados")
+                             Escreval ("Observa√ß√µes:")
+                             Escreval ("- Devido a limita√ß√µes do VisualG, apenas os 1290 primeiros termos da sequ√™ncia podem ser calculados")
+                             Escreval ("- Caso sejam inseridos caracteres inv√°lidos, apenas os n√∫meros inteiros digitados ser√£o considerados")
                              Escreval (" ")
                              Escreval ("Pressione Enter para continuar")
                              Leia(buffer)
                              LimpaTela
       
-      Enquanto Verdadeiro faÁa
+      Enquanto Verdadeiro fa√ßa
 
       // Inicializa indiceSequencia para evitar erro ao entrar no loop
       indiceSequencia <- 1
-      // Escreva do n˙mero de termos a serem calculados
+      // Escreva do n√∫mero de termos a serem calculados
       Enquanto (indiceSequencia = 1) faca
          Escreval ("====================================")
-         Escreval ("      SequÍncia de Cubos")
+         Escreval ("      Sequ√™ncia de Cubos")
          Escreval ("====================================")
          Escreval (" ")
-         Escreva("Digite atÈ qual Ìndice ser· calculado o cubo: ")
+         Escreva("Digite at√© qual √≠ndice ser√° calculado o cubo: ")
          Leia(numeroTermos)
 
-         // ValidaÁ„o da entrada
+         // Valida√ß√£o da entrada
          Se (numeroTermos < 1) ou (numeroTermos > 1290) Entao
             Limpatela()
             Escreval ("====================================")
-            Escreval ("      SequÍncia de Fibonacci")
+            Escreval ("      Sequ√™ncia de Fibonacci")
             Escreval ("====================================")
             Escreval (" ")
-            Escreval ("O n˙mero deve estar entre 1 e 1290.")
+            Escreval ("O n√∫mero deve estar entre 1 e 1290.")
             Escreval ("Digite novamente: ")
             Leia(numeroTermos)
             Limpatela()
@@ -267,7 +267,7 @@ Senao
          // Algoritmo dos Cubos
          Para contador de 1 ate numeroTermos faca
             termoAtual <- contador*contador*contador
-            Escreval ("Õndice - ",contador," | Cubo - ",termoAtual)
+            Escreval ("√çndice - ",contador," | Cubo - ",termoAtual)
          FimPara
 
                               Escreval (" ")
@@ -275,7 +275,7 @@ Senao
                               Escreval ("O que deseja fazer agora?")
                               Escreval ("1 - Calcular Novamente")
                               Escreval ("2 - Voltar ao menu")
-                              Escreva ("Digite a opÁ„o: ")
+                              Escreva ("Digite a op√ß√£o: ")
                               Leia (OP2)
 
                               Se (OP2 = 2) entao
@@ -284,21 +284,21 @@ Senao
                               Senao
                                    Se (OP2 <> 1) entao
                                       Limpatela
-                                      Escreval ("OpÁ„o Inv·lida! tente novamente")
+                                      Escreval ("Op√ß√£o Inv√°lida! tente novamente")
                                    FimSe
                               FimSe
                               Limpatela
    FimEnquanto
                              
-//SequÍncia GeomÈtrica
+//Sequ√™ncia Geom√©trica
                           Senao
                                Se (OP = 7) entao
                                   Escreval ("====================================")
-                                  Escreval ("      SequÍncia de GeomÈtrica")
+                                  Escreval ("      Sequ√™ncia de Geom√©trica")
                                   Escreval ("====================================")
                                   Escreval (" ")
                                   Escreval (" ")
-                                  Escreval ("Nesta opÁ„o, o usu·rio deve digitar um n˙mero e a raz„o a ser calculada")
+                                  Escreval ("Nesta op√ß√£o, o usu√°rio deve digitar um n√∫mero e a raz√£o a ser calculada")
                                   Escreval (" ")
                                   Escreval (" ")
                                   Escreval ("Pressione Enter para continuar")
@@ -307,13 +307,13 @@ Senao
 
 	                               Enquanto Verdadeiro faca
 	                                Escreval ("====================================")
-                                  Escreval ("      SequÍncia de GeomÈtrica")
+                                  Escreval ("      Sequ√™ncia de Geom√©trica")
                                   Escreval ("====================================")
                                   Escreval (" ")
                                   Escreval (" ")
 		                            Escreva ("Digite o primeiro Termo: ")
                                   Leia (N1)
-                                  Escreva ("Raz„o: ")
+                                  Escreva ("Raz√£o: ")
                                   Leia (N2)
                                   Para i de 0 ate 9 faca
                                        R <- N1 * N2 ^ (i+1)
@@ -324,7 +324,7 @@ Senao
                                   Escreval ("O que deseja fazer agora?")
                                   Escreval ("1 - Calcular Novamente")
                                   Escreval ("2 - Voltar ao menu")
-                                  Escreva ("Digite a opÁ„o: ")
+                                  Escreva ("Digite a op√ß√£o: ")
                                   Leia (OP2)
 
                                   Se (OP2 = 2) entao
@@ -333,23 +333,23 @@ Senao
 
                                   Senao
                                        Se (OP2 <> 1) entao
-                                       Escreval ("OpÁ„o Inv·lida!")
+                                       Escreval ("Op√ß√£o Inv√°lida!")
                                        FimSe
                                   FimSe
                                   LimpaTela
                                   FimEnquanto
 
-//SequÍncia Alternada
+//Sequ√™ncia Alternada
                                Senao
                                     Se (OP = 8) entao
-                                       Escreval ("DisponÌvel em breve! ")
+                                       Escreval ("Dispon√≠vel em breve! ")
                                        
                                              Escreval (" ")
                                              Escreval (" ")
                                              Escreval ("O que deseja fazer agora?")
                                              Escreval ("1 - Voltar ao menu")
                                              Escreval (" ")
-                                             Escreva ("Digite a opÁ„o: ")
+                                             Escreva ("Digite a op√ß√£o: ")
                                              Leia (OP2)
 
                                              Se (OP2 = 1) entao
@@ -359,21 +359,21 @@ Senao
                                              Senao
                                                   Se (OP2 <> 1) entao
                                                      Limpatela
-                                                     Escreval ("OpÁ„o Inv·lida! tente novamente")
+                                                     Escreval ("Op√ß√£o Inv√°lida! tente novamente")
                                                   FimSe
                                              FimSe
                                        
-//SequÍncia de Tribonacci
+//Sequ√™ncia de Tribonacci
                                     Senao
                                          Se (OP = 9) entao
-                                            Escreval ("DisponÌvel em breve! ")
+                                            Escreval ("Dispon√≠vel em breve! ")
 
                                             Escreval (" ")
                                             Escreval (" ")
                                             Escreval ("O que deseja fazer agora?")
                                             Escreval ("1 - Voltar ao menu")
                                             Escreval (" ")
-                                            Escreva ("Digite a opÁ„o: ")
+                                            Escreva ("Digite a op√ß√£o: ")
                                             Leia (OP2)
 
                                             Se (OP2 = 1) entao
@@ -383,7 +383,7 @@ Senao
                                             Senao
                                                  Se (OP2 <> 1) entao
                                                     Limpatela
-                                                    Escreval ("OpÁ„o Inv·lida! tente novamente")
+                                                    Escreval ("Op√ß√£o Inv√°lida! tente novamente")
                                                  FimSe
                                             FimSe
                                             
@@ -394,7 +394,7 @@ Senao
                                                  Escreval("Obrigado por escolher a LGS Solutions!")
                                                  Fimalgoritmo
 
-//CrÈditos
+//Cr√©ditos
                                               Senao
                                                    Se (OP = 11) entao
                                                       Escreval ("==========================================")
@@ -413,20 +413,20 @@ Senao
                                                       Escreval ("Samir - Desenvolvedor")
                                                       Escreval ("Guilherme Ioshua - Desenvolvedor")
                                                       Escreval (" ")
-                                                      Escreval ("Vers„o do Produto: DB00103A25")
-                                                      Escreval ("Vers„o de Desenvolvimento, proibida e distribuiÁ„o e venda n„o autorizada")
+                                                      Escreval ("Vers√£o do Produto: DB00103A25")
+                                                      Escreval ("Vers√£o de Desenvolvimento, proibida e distribui√ß√£o e venda n√£o autorizada")
                                                       Escreval (" ")
                                                       Escreval ("LGS Solutions - Todos os Direitos Reservados")
                                                       Escreval ("==========================================")
                                                       Escreval (" ")
                                                       Escreval ("1 - Voltar")
-                                                      Escreva ("Digite a opÁ„o: ")
+                                                      Escreva ("Digite a op√ß√£o: ")
                                                       Leia (OP2)
                                                       Limpatela()
                                                       Se (OP2=1) entao
                                                            Escreval (Menu())
                                                       Senao
-                                                      Escreval ("OpÁ„o Inv·lida!")
+                                                      Escreval ("Op√ß√£o Inv√°lida!")
                                                       FimSe
                                                    FimSe
                                               FimSe
