@@ -8,7 +8,7 @@
  - ![Minha imagem](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true)
  - Guilherme Ioshua - Dev Team
  - Samir Siqueira - Dev Team
-- ![Minha imagem]([[https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=tru](https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/59029542-7377-4593-9e2a-c3f559c02a9f.jfif)e](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true))
+ - ![Minha imagem]([https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true))
   
 
 # Projeto:
