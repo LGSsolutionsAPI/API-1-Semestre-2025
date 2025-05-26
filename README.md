@@ -3,12 +3,12 @@
 
 # Integrantes e funções:
  - Luis Eduardo Mendes - Product Owner
- - ![Minha imagem]([https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true](https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/Luis.jfif))
+ - ![Minha imagem](https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/Luis.jfif)
  - Luan Santos - ScrumMaster
  - ![Minha imagem](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true)
  - Guilherme Ioshua - Dev Team
  - Samir Siqueira - Dev Team
- - ![Minha imagem]([https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true))
+- ![Minha imagem](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true)
   
 
 # Projeto:
