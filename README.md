@@ -3,23 +3,31 @@
 
 # Integrantes e funções:
 <div style="text-align: center;">
+
   <div style="display: inline-block; margin: 10px;">
-    <p><strong>Luis - PO </strong></p>
+    <p><strong>Luis - PO</strong></p>
     <img src="https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/Luis.jfif" width="200" />
   </div>
-    <div style="display: inline-block; margin: 10px;">
+
+  <div style="display: inline-block; margin: 10px;">
     <p><strong>Luan Santos - Scrum Master</strong></p>
     <img src="https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true" width="200" />
   </div>
-   
+
+  <br> <!-- Quebra de linha para a segunda fileira -->
+
   <div style="display: inline-block; margin: 10px;">
-    <p><strong>Samir - Desenvolvedor </strong></p>
+    <p><strong>Samir - Desenvolvedor</strong></p>
     <img src="https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true" width="200" />
   </div>
-<div style="display: inline-block; margin: 10px;">
-    <p><strong>Guilherme Ioshua - Desenvolvedor </strong></p>
+
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Guilherme Ioshua - Desenvolvedor</strong></p>
     <img src="" width="200" />
   </div>
+
+</div>
+
   
   
 
