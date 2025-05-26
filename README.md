@@ -2,13 +2,30 @@
 =============================================
 
 # Integrantes e funções:
- - Luis Eduardo Mendes - Product Owner
- - ![Minha imagem](https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/Luis.jfif)
- - Luan Santos - ScrumMaster
- - ![Minha imagem](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true)
- - Guilherme Ioshua - Dev Team
- - Samir Siqueira - Dev Team
-- ![Minha imagem](https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true)
+<div style="text-align: center;">
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Luis - PO </strong></p>
+    <img src="https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/Luis.jfif" width="200" />
+  </div>
+    <div style="display: inline-block; margin: 10px;">
+    <p><strong>Luan Santos - Scrum Master</strong></p>
+    <img src="https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true" width="200" />
+  </div>
+   
+  <div style="display: inline-block; margin: 10px;">
+    <p><strong>Samir - Desenvolvedor </strong></p>
+    <img src="https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Samir.jpg?raw=true" width="200" />
+  </div>
+<div style="display: inline-block; margin: 10px;">
+    <p><strong>Guilherme Ioshua - Desenvolvedor </strong></p>
+    <img src="" width="200" />
+  </div>
+  
+  
+
+  
+</div>
+
   
 
 # Projeto:
