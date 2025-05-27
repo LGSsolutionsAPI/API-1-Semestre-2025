@@ -5,7 +5,7 @@
 <div style="text-align: center;">
 
   <div style="display: inline-block; margin: 10px;">
-    <p><strong>Luis Eduardo - PO</strong></p>
+    <p><strong>Luís Eduardo - PO</strong></p>
     <img src="https://raw.githubusercontent.com/LGSsolutionsAPI/API-1-Semestre-2025/refs/heads/main/Luis.jfif" width="200" />
   </div>
 
