@@ -11,7 +11,7 @@
 
   <div style="display: inline-block; margin: 10px;">
     <p><strong>Luan Santos - Scrum Master</strong></p>
-    <img src="https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Screenshot_20230604-214618.jpg?raw=true" width="200" />
+    <img src="https://github.com/LGSsolutionsAPI/API-1-Semestre-2025/blob/main/Luan.jpg?raw=true" width="200" />
   </div>
 
   <br> 
